@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": "3ee8",
+      "fname": "vaibhav",
+      "lname": "mehar",
+      "contact": "7768841242",
+      "password": "abc@123",
+      "address": "nagpur",
+      "gender": "male",
+      "state": "Maharashtra",
+      "city": "Pune",
+      "dob": "",
+      "pincode": "",
+      "email": ""
+    },
+    {
+      "fname": "vaibhav",
+      "lname": "mehar",
+      "contact": "7768841242",
+      "password": "VAibhav@123",
+      "address": "Swami Vivekanand Nagar kanhan-441401",
+      "gender": "male",
+      "state": "Rajsthan",
+      "city": "Jaipur",
+      "dob": "2025-01-21",
+      "pincode": "441401",
+      "email": "vaibh@gmail.com",
+      "faname": "vaibhav",
+      "id": "e1f9"
+    }
+  ]
+}
