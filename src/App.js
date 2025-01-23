@@ -14,9 +14,9 @@ import Userdetails from './component/Pages/Userdetails.jsx';
 import Footer from './component/Pages/Footer.jsx';
 import Updateusers from './component/Pages/Updateusers.jsx';
 import Deleteuser from './component/Pages/Deleteuser.jsx';
-import { Helmet } from 'react-helmet';
 import SedanCars from './component/Pages/SedanCars.jsx';
 import Premium from './component/Pages/Premium.jsx';
+import Userlogin from './component/Pages/Userlogin.jsx';
 
 
 function App() {
@@ -29,8 +29,8 @@ function App() {
           <Route path='/home' element={<Home />}></Route>
           <Route path='/about' element={<About />}></Route>
           <Route path='/cars' element={<Cars/>}>
-            <Route path='/cars/premium' element={<Premium/>}></Route>
-            <Route path='/cars/sedancars' element={<SedanCars/>}></Route>
+            <Route path='premium' element={<Premium/>}></Route>
+            <Route path='sedancars' element={<SedanCars/>}></Route>
           </Route>
           <Route path='/users' element={<Users />}></Route>
           <Route path='/admin' element={<Admin />}></Route>
@@ -38,6 +38,7 @@ function App() {
           <Route path='/userdetails' element={<Userdetails />}></Route>
           <Route path='/users/update/:userID' element={<Updateusers />}></Route>
           <Route path='/users/delete/:userID' element={<Deleteuser />}></Route>
+          <Route path='/userlogin' element={<Userlogin/>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer />

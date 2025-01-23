@@ -2,8 +2,8 @@ import React from 'react'
 import Logo from '../../Static/logo.svg'
 const Footer = () => {
     return (
-        <div className='w-100 bg-black text-light p-3'>
-            <div className="container-fluid mt-5">
+        <div className='container-fluid w-100 bg-black text-light p-4 mx-auto'>
+            <div className="mt-5 mx-auto d-flex justify-content-evenly">
                 <div className="row row-cols-4">
                     <div className="col">
                         <img src={Logo} alt='' />
@@ -12,11 +12,11 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <div>
-                            <h3 className='text-danger'>Call us on(1)</h3>
-                            <h3>+91 9999999 681</h3>
+                            <h3 className='text-danger fs-4'>Call us on(1)</h3>
+                            <h3 className='fs-3'>+91 9999999 681</h3>
                         </div>
-                        <div className='fs-5'>
-                            <h3 className='mt-5'>USEFUL LINKS</h3>
+                        <div className='fs-6'>
+                            <h3 className='mt-5 fs-4'>USEFUL LINKS</h3>
                             <ul className='list-group list-group-flush ms-5 text-start'>
                                 <li className='ms-5 p-2'>Pre-Owned BMW Cars</li>
                                 <li className='ms-5 p-2'>re-Owned Audi Cars</li>
@@ -26,11 +26,11 @@ const Footer = () => {
                     </div>
                     <div className="col">
                         <div>
-                            <h3 className='text-danger'>Call us on(2)</h3>
-                            <h3>+91 999999 2532</h3>
+                            <h3 className='text-danger fs-4'>Call us on(2)</h3>
+                            <h3 className='fs-3'>+91 999999 2532</h3>
                         </div>
                         <div className='text-start ms-3'>
-                            <h3 className='mt-5 ms-5'>OUR INFO</h3>
+                            <h3 className='mt-5 ms-5 fs-4'>OUR INFO</h3>
                             <ul className='list-group list-group-flush ms-5 text-start'>
                                 <li className='ms-4 p-2'>About Us</li>
                                 <li className='ms-4 p-2'>Cars</li>
@@ -47,7 +47,6 @@ const Footer = () => {
             <hr />
             <div className='d-flex align-items-center'>
                 <p className='mt-2'>&copy; 2024 FusionCars.com all rights reserved.<span className='ms-5'>Powered By Digital Birbal</span></p>
-
             </div>
         </div>
 

@@ -33,6 +33,12 @@ const Navbar = () => {
                                 <NavLink className="nav-link text-light fs-6" to="/admin">Admin</NavLink>
                             </li>
                             <li className="nav-item">
+                                <NavLink className="nav-link fs-6 text-light" to="/userlogin">
+                                    
+                                    User Login
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
                                 <NavLink className="nav-link text-light fs-6" to="/services">Services</NavLink>
                             </li>
                         </ul>

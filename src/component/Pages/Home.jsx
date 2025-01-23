@@ -15,14 +15,14 @@ const Home = () => {
             <div className=''>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
-                            <img src={banner1} class="d-block w-100" alt="..." />
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src={banner1} class="d-block w-100" alt="..."/>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src={banner2} class="d-block w-100" alt="..." />
+                            <img src={banner2} class="d-block w-100" alt="..."/>
                         </div>
-                        <div class="carousel-item">
-                            <img src={banner3} class="d-block w-100" alt="..." />
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src={banner3} class="d-block w-100" alt="..."/>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -97,10 +97,10 @@ const Home = () => {
                             <p className='fs-4 mb-5 '><span className='text-danger fs-2'>"</span>Awesome collection.। Have rent audi Q5 from here... Highly Recommended<span className='text-danger fs-2'>"</span></p>
                         </div>
                         <div class="carousel-item">
-                           <p  className='fs-4 mb-5'> <span className='text-danger fs-2'>"</span>They are just amazing they know how to deliver happiness trust worthyI bought mercedes s class from them completely hassle free transfer and reliable productKeep growing like this malik brothers..<span className='text-danger fs-2'>"</span></p>
+                            <p className='fs-4 mb-5'> <span className='text-danger fs-2'>"</span>They are just amazing they know how to deliver happiness trust worthyI bought mercedes s class from them completely hassle free transfer and reliable productKeep growing like this malik brothers..<span className='text-danger fs-2'>"</span></p>
                         </div>
                         <div class="carousel-item">
-                           <p  className='fs-4 mb-5'> <span className='text-danger fs-2'>"</span>Car Rental one of the best and trusted  place in delhi  to rent your car Excellent treatment transparency  i strongly recommend.<span className='text-danger fs-2'>"</span></p>
+                            <p className='fs-4 mb-5'> <span className='text-danger fs-2'>"</span>Car Rental one of the best and trusted  place in delhi  to rent your car Excellent treatment transparency  i strongly recommend.<span className='text-danger fs-2'>"</span></p>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
